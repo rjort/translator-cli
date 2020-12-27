@@ -1,0 +1,11 @@
+require_relative './cli'
+
+module Translate
+  VERSION: String
+  class Translate
+    attr_reader key_api: String
+    attr_reader cli_input: Array[CLI::Cli]
+
+    def initialize() -> void
+  end
+end

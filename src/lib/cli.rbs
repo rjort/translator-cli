@@ -1,0 +1,17 @@
+require "rbs"
+
+module CLI
+  VERSION: String
+
+  class Cli
+    attr_reader msg: String
+    attr_reader lang_msg: String
+    attr_reader lang_translate: String
+
+    @input: Array[String]
+
+    def initialize: (msg: String, lang_msg: String, lang_translate: String) -> void
+    def start_translate: () -> String
+    def stats_argv: () -> String
+  end
+end
