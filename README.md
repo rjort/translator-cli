@@ -4,7 +4,7 @@ app em cli do curso de 'ruby puro' da Onebitcode
 
 ### OBS:
 
-app feito para concluir treinamento de capacitacao de testes automatizado com ruby, 'modulo 02 ruby web - ruby basico'
+a API do 'yandex' nao foi implementada devido a 'key' nao esta sendo mais disponibilizada
 
 #
 
